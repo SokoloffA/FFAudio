@@ -1,0 +1,6 @@
+framework module FFAudio {
+    umbrella header "FFAudio.h"
+
+    export *
+    module * { export * }
+}
