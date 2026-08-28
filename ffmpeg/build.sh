@@ -5,12 +5,22 @@ set -euo pipefail
 #DIR=`pwd`
 CONFIGURE_FLAGS+=" --prefix=${ROOT_DIR}"    # install in PREFIX [$prefix_default]
 #CONFIGURE_FLAGS+=" --prefix=${DIR}/OUT"    # install in PREFIX [$prefix_default]
-#CONFIGURE_FLAGS+=" --quiet"                 # Suppress showing informative output
+#CONFIGURE_FLAGS+=" --quiet"                # Suppress showing informative output
 CONFIGURE_FLAGS+=" --fatal-warnings"        # fail if any configure warning is generated
+#CONFIGURE_FLAGS+=" --extra-cflags=${DEPLOY_FLAGS}"
+#CONFIGURE_FLAGS+=" --extra-ldflags=${DEPLOY_FLAGS}"
+#CONFIGURE_FLAGS+=" --extra-cflags=-arch\ ${ARCH}"
+#CONFIGURE_FLAGS+=" --extra-ldflags=-arch\ ${ARCH}"
+CONFIGURE_FLAGS+=" --disable-mmx"           # disable MMX optimizations
+#CONFIGURE_FLAGS+=" --arch=${ARCH}"
+CONFIGURE_FLAGS+=" --enable-cross-compile"  # assume a cross-compiler is used
+CONFIGURE_FLAGS+=" --target-os=darwin"
+CONFIGURE_FLAGS+=" --disable-inline-asm"    # disable use of inline assembly
+
 
 # Configuration options:
-CONFIGURE_FLAGS+=" --enable-static"        # do not build static libraries [no]
-CONFIGURE_FLAGS+=" --disable-shared"         # build shared libraries [no]
+CONFIGURE_FLAGS+=" --enable-static"         # do not build static libraries [no]
+CONFIGURE_FLAGS+=" --disable-shared"        # build shared libraries [no]
 
 
 CONFIGURE_FLAGS+=" --disable-all"
@@ -21,6 +31,19 @@ CONFIGURE_FLAGS+=" --enable-avformat"
 CONFIGURE_FLAGS+=" --enable-avcodec"
 CONFIGURE_FLAGS+=" --enable-avutil"
 CONFIGURE_FLAGS+=" --enable-swresample"
+CONFIGURE_FLAGS+=" --enable-avfilter"
+
+# Filters .............................
+CONFIGURE_FLAGS+=" --enable-filters"
+# CONFIGURE_FLAGS+=" --enable-filter=aemphasis"
+# CONFIGURE_FLAGS+=" --enable-filter=replaygain"
+# CONFIGURE_FLAGS+=" --enable-filter=ebur128"
+# CONFIGURE_FLAGS+=" --enable-filter=volume"
+# CONFIGURE_FLAGS+=" --enable-filter=aresample"
+# CONFIGURE_FLAGS+=" --enable-filter=loudnorm"
+# CONFIGURE_FLAGS+=" --enable-filter=volumedetect"
+# CONFIGURE_FLAGS+=" --enable-filter=astats"
+# CONFIGURE_FLAGS+=" --enable-filter=aformat"
 
 # Protocols ...........................
 CONFIGURE_FLAGS+=" --enable-protocol=async"
@@ -312,9 +335,9 @@ CONFIGURE_FLAGS+=" --disable-videotoolbox"    # disable VideoToolbox code [autod
 
 ###########################################
 
-#lazy_configure ${CONFIGURE_FLAGS}
-#make -j ${PROC_NUM}
-#make install
+lazy_configure ${CONFIGURE_FLAGS}
+make -j ${PROC_NUM}
+make install
 
 ###########################################
 
@@ -358,12 +381,22 @@ add_lib swresample
 add_lib swscale
 
 echo "" > dummy.c
-clang -c -fPIC -O2 "dummy.c" -o "dummy.o"
+clang \
+    ${DEPLOY_FLAGS} \
+    -arch ${ARCH} \
+    -c \
+    -fPIC \
+    -O2 "dummy.c" \
+    -o "dummy.o"
+
 clang -dynamiclib \
+    ${DEPLOY_FLAGS} \
+    -arch ${ARCH} \
     -o "libavfull.dylib" \
     "dummy.o" \
     ${LIBS} \
     ${OPTS}
+
 
 install "libavfull.dylib" "${ROOT_DIR}/lib/${FRAMEWORK_NAME}"
 
@@ -392,98 +425,98 @@ install -m 644  "${CONF_DIR}/${FRAMEWORK_NAME}.h" "${ROOT_DIR}/include/${FRAMEWO
 # ech static const int av_error_eof = AVERROR_EOF;
 # echo "#endif /* ${FRAMEWORK_NAME}_h */" >> "${HEADER_FILE}"
 
-rm -rf "${ROOT_DIR}/include//libavutil/time.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_cuda.h"
-rm -rf "${ROOT_DIR}/include//libavutil/iamf.h"
-rm -rf "${ROOT_DIR}/include//libavutil/detection_bbox.h"
-rm -rf "${ROOT_DIR}/include//libavutil/ambient_viewing_environment.h"
-rm -rf "${ROOT_DIR}/include//libavutil/fifo.h"
-rm -rf "${ROOT_DIR}/include//libavutil/blowfish.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_mediacodec.h"
-rm -rf "${ROOT_DIR}/include//libavutil/replaygain.h"
-rm -rf "${ROOT_DIR}/include//libavutil/murmur3.h"
-rm -rf "${ROOT_DIR}/include//libavutil/stereo3d.h"
-rm -rf "${ROOT_DIR}/include//libavutil/pixdesc.h"
-rm -rf "${ROOT_DIR}/include//libavutil/base64.h"
-rm -rf "${ROOT_DIR}/include//libavutil/sha.h"
-rm -rf "${ROOT_DIR}/include//libavutil/motion_vector.h"
-rm -rf "${ROOT_DIR}/include//libavutil/uuid.h"
-rm -rf "${ROOT_DIR}/include//libavutil/lfg.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_vulkan.h"
-rm -rf "${ROOT_DIR}/include//libavutil/xtea.h"
-rm -rf "${ROOT_DIR}/include//libavutil/crc.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_vdpau.h"
-rm -rf "${ROOT_DIR}/include//libavutil/file.h"
-rm -rf "${ROOT_DIR}/include//libavutil/md5.h"
-rm -rf "${ROOT_DIR}/include//libavutil/cast5.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_vaapi.h"
-rm -rf "${ROOT_DIR}/include//libavutil/spherical.h"
-rm -rf "${ROOT_DIR}/include//libavutil/ffversion.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_opencl.h"
-rm -rf "${ROOT_DIR}/include//libavutil/audio_fifo.h"
-rm -rf "${ROOT_DIR}/include//libavutil/tree.h"
-rm -rf "${ROOT_DIR}/include//libavutil/threadmessage.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hdr_dynamic_vivid_metadata.h"
-rm -rf "${ROOT_DIR}/include//libavutil/adler32.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_d3d11va.h"
-rm -rf "${ROOT_DIR}/include//libavutil/timecode.h"
-rm -rf "${ROOT_DIR}/include//libavutil/dovi_meta.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_d3d12va.h"
-rm -rf "${ROOT_DIR}/include//libavutil/tx.h"
-rm -rf "${ROOT_DIR}/include//libavutil/sha512.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_dxva2.h"
-rm -rf "${ROOT_DIR}/include//libavutil/display.h"
-rm -rf "${ROOT_DIR}/include//libavutil/camellia.h"
-rm -rf "${ROOT_DIR}/include//libavutil/csp.h"
-rm -rf "${ROOT_DIR}/include//libavutil/video_hint.h"
-rm -rf "${ROOT_DIR}/include//libavutil/pixelutils.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_drm.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hmac.h"
-rm -rf "${ROOT_DIR}/include//libavutil/eval.h"
-rm -rf "${ROOT_DIR}/include//libavutil/executor.h"
-rm -rf "${ROOT_DIR}/include//libavutil/random_seed.h"
-rm -rf "${ROOT_DIR}/include//libavutil/opt.h"
-rm -rf "${ROOT_DIR}/include//libavutil/mastering_display_metadata.h"
-rm -rf "${ROOT_DIR}/include//libavutil/aes.h"
-rm -rf "${ROOT_DIR}/include//libavutil/bswap.h"
-rm -rf "${ROOT_DIR}/include//libavutil/rc4.h"
-rm -rf "${ROOT_DIR}/include//libavutil/tea.h"
-rm -rf "${ROOT_DIR}/include//libavutil/cpu.h"
-rm -rf "${ROOT_DIR}/include//libavutil/lzo.h"
-rm -rf "${ROOT_DIR}/include//libavutil/des.h"
-rm -rf "${ROOT_DIR}/include//libavutil/encryption_info.h"
-rm -rf "${ROOT_DIR}/include//libavutil/twofish.h"
-rm -rf "${ROOT_DIR}/include//libavutil/imgutils.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_videotoolbox.h"
-rm -rf "${ROOT_DIR}/include//libavutil/video_enc_params.h"
-rm -rf "${ROOT_DIR}/include//libavutil/parseutils.h"
-rm -rf "${ROOT_DIR}/include//libavutil/ripemd.h"
-rm -rf "${ROOT_DIR}/include//libavutil/bprint.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hdr_dynamic_metadata.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hwcontext_qsv.h"
-rm -rf "${ROOT_DIR}/include//libavutil/aes_ctr.h"
-rm -rf "${ROOT_DIR}/include//libavutil/timestamp.h"
-rm -rf "${ROOT_DIR}/include//libavutil/downmix_info.h"
-rm -rf "${ROOT_DIR}/include//libavutil/avassert.h"
-rm -rf "${ROOT_DIR}/include//libavutil/hash.h"
-rm -rf "${ROOT_DIR}/include//libavutil/intreadwrite.h"
-rm -rf "${ROOT_DIR}/include//libavutil/film_grain_params.h"
-rm -rf "${ROOT_DIR}/include//libavutil/avstring.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/adts_parser.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/vdpau.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/qsv.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/videotoolbox.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/mediacodec.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/d3d11va.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/avfft.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/jni.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/bsf.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/dirac.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/avdct.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/ac3_parser.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/vorbis_parser.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/dxva2.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/dv_profile.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/time.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_cuda.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/iamf.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/detection_bbox.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/ambient_viewing_environment.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/fifo.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/blowfish.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_mediacodec.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/replaygain.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/murmur3.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/stereo3d.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/pixdesc.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/base64.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/sha.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/motion_vector.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/uuid.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/lfg.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_vulkan.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/xtea.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/crc.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_vdpau.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/file.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/md5.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/cast5.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_vaapi.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/spherical.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/ffversion.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_opencl.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/audio_fifo.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/tree.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/threadmessage.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hdr_dynamic_vivid_metadata.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/adler32.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_d3d11va.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/timecode.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/dovi_meta.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_d3d12va.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/tx.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/sha512.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_dxva2.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/display.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/camellia.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/csp.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/video_hint.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/pixelutils.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_drm.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hmac.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/eval.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/executor.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/random_seed.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/opt.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/mastering_display_metadata.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/aes.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/bswap.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/rc4.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/tea.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/cpu.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/lzo.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/des.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/encryption_info.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/twofish.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/imgutils.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_videotoolbox.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/video_enc_params.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/parseutils.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/ripemd.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/bprint.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hdr_dynamic_metadata.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hwcontext_qsv.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/aes_ctr.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/timestamp.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/downmix_info.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/avassert.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/hash.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/intreadwrite.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/film_grain_params.h"
+# rm -rf "${ROOT_DIR}/include/libavutil/avstring.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/adts_parser.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/vdpau.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/qsv.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/videotoolbox.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/mediacodec.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/d3d11va.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/avfft.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/jni.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/bsf.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/dirac.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/avdct.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/ac3_parser.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/vorbis_parser.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/dxva2.h"
+rm -rf "${ROOT_DIR}/include/libavcodec/dv_profile.h"
 
 
 

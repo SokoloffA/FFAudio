@@ -13,6 +13,8 @@ SCRIPT_DIR=`pwd`
 PROC_NUM=`nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 2`
 ARCHITECTURES="arm64 x86_64"
 ORIG_PKG_CONFIG_PATH="${PKG_CONFIG_PATH:-}"
+export DEPLOY_TARGET="${MACOS_DEPLOYMENT_TARGET:-11.0}"
+
 
 export FRAMEWORK_NAME=${FRAMEWORK_NAME}
 export PROC_NUM=${PROC_NUM}
@@ -79,6 +81,7 @@ function build() {
         export PATH="${ROOT_DIR}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin"
         export PKG_CONFIG_PATH="${ROOT_DIR}/lib/pkgconfig:${ORIG_PKG_CONFIG_PATH}"
         export CONF_DIR="${SCRIPT_DIR}/${project}"
+        export DEPLOY_FLAGS="-mmacosx-version-min=${DEPLOY_TARGET}"
 
         echo "*****************************************"
         echo "** ${project}"
@@ -124,6 +127,9 @@ function build_universal_framework() {
 
     mkdir -p ${a_dir}/Resources
     cp -a "${SCRIPT_DIR}/Info.plist" "${a_dir}/Resources/Info.plist"
+
+    mkdir -p ${a_dir}/Resources/CMake/
+    cp -a "${SCRIPT_DIR}/FFAudioConfig.cmake" "${a_dir}/Resources/CMake/FFAudioConfig.cmake"
 
     echo "Processing libraries ......................."
     lipo "${arm_dir}/lib/${FRAMEWORK_NAME}" "${x86_dir}/lib/${FRAMEWORK_NAME}" -create -output "${a_dir}/${FRAMEWORK_NAME}"
