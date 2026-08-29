@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/CMake/FFAudioConfig.cmake</key>
+		<data>
+		hMw+bNyzlMxyRJPGxbr74M9gBhA=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
 		GTwtMJKbjGhLpCcgtiEyo+EOz1g=
@@ -842,6 +846,13 @@
 			<key>hash2</key>
 			<data>
 			2XT+UTmyNp5UdBqs8L5CIHHYFEwmF5tclXcvL1YEc6k=
+			</data>
+		</dict>
+		<key>Resources/CMake/FFAudioConfig.cmake</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fNNKkgoeco34zsblEudl3jz8snkGfRF8eTt1eMLBHoY=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>

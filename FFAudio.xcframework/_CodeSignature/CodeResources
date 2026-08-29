@@ -6,7 +6,7 @@
 	<dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/FFAudio</key>
 		<data>
-		D334y2Fv70HAKvh8BBjBV77J35U=
+		1YNvLBzBf/kCaiRDmC8um5GCRKM=
 		</data>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/FFAudio.h</key>
 		<data>
@@ -484,13 +484,17 @@
 		<data>
 		SnljUbKLyCWucakC+QjAOuOtLqw=
 		</data>
+		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Resources/CMake/FFAudioConfig.cmake</key>
+		<data>
+		hMw+bNyzlMxyRJPGxbr74M9gBhA=
+		</data>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Resources/Info.plist</key>
 		<data>
 		GTwtMJKbjGhLpCcgtiEyo+EOz1g=
 		</data>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		rs3+RxOxVgsGyl3jt/2gwhKGQJU=
+		GxlFCSG/5sRhzDnpY1YVAIQ/KT0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -519,7 +523,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+gIVdK+dFzFSiSbQYLy9ZNeq+g0mRm0E0kuG+V9a4t8=
+			a6buaPvO3Cn4E9Z+XjJGVRN+4v97SrO9k1DPQ8yI5lc=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/FFAudio.h</key>
@@ -1355,6 +1359,13 @@
 			2XT+UTmyNp5UdBqs8L5CIHHYFEwmF5tclXcvL1YEc6k=
 			</data>
 		</dict>
+		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Resources/CMake/FFAudioConfig.cmake</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fNNKkgoeco34zsblEudl3jz8snkGfRF8eTt1eMLBHoY=
+			</data>
+		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1366,7 +1377,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7FMY0R8gd6mJ0xr3X5lxa8WGa8tfqifeVS5vQrT0eCg=
+			r5d+RTIrkxk88Tm1hUf687xBbU1J/DgAka5Q/0zr2gs=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/Current</key>
