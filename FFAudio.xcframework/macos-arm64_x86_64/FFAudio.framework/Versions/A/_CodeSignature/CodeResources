@@ -22,6 +22,13 @@
 			zonZTk0BU56FkN5Kqi8/iZCMRwGqiOAzt6mvYDtpZxw=
 			</data>
 		</dict>
+		<key>Headers/lame/lame.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rutqnw7CGGv78cJFXJpmc0O1fl6lP4et2XFTVoIQtNw=
+			</data>
+		</dict>
 		<key>Headers/libavcodec/avcodec.h</key>
 		<dict>
 			<key>hash2</key>
@@ -839,6 +846,41 @@
 			<key>hash2</key>
 			<data>
 			TzzWZkBbt3YG/2I0QBJ64AN+t5GeYNxV1CPYErFiu+I=
+			</data>
+		</dict>
+		<key>Headers/opus/opus.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A29qboOiDpQ1BXQ+ET6Q1ieMvoJA99W7kLP4YmHng+M=
+			</data>
+		</dict>
+		<key>Headers/opus/opus_defines.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u9TU47qZ9pgrHI2PVUGBStd9jour88x4jPI9UXssqdY=
+			</data>
+		</dict>
+		<key>Headers/opus/opus_multistream.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/ZnEWUtLV+QG6cq0Wnd4ld0bTI3gZwiKpU7XrhALE/A=
+			</data>
+		</dict>
+		<key>Headers/opus/opus_projection.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EbNCfpyjQjCKk63JoIHiR5aF5beBGjpTVAYJ8bvEiK0=
+			</data>
+		</dict>
+		<key>Headers/opus/opus_types.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GcswHqHu28vbtQSTY94GGJO/EcIOUFple2nOb/pbEfo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -310,6 +310,31 @@ CONFIGURE_FLAGS+=" --enable-decoder=xan_dpcm"             # DPCM Xan
 CONFIGURE_FLAGS+=" --enable-decoder=xma1"                 # Xbox Media Audio 1
 CONFIGURE_FLAGS+=" --enable-decoder=xma2"                 # Xbox Media Audio 2
 
+# Encoders ............................
+CONFIGURE_FLAGS+=" --enable-encoder=pcm_s16le"            # WAV/PCM
+CONFIGURE_FLAGS+=" --enable-encoder=pcm_s24le"
+CONFIGURE_FLAGS+=" --enable-encoder=pcm_s32le"
+
+CONFIGURE_FLAGS+=" --enable-encoder=flac"
+CONFIGURE_FLAGS+=" --enable-encoder=aac_at"
+CONFIGURE_FLAGS+=" --enable-encoder=alac_at"
+CONFIGURE_FLAGS+=" --enable-encoder=wavpack"
+CONFIGURE_FLAGS+=" --enable-encoder=vorbis"
+
+CONFIGURE_FLAGS+=" --enable-encoder=libmp3lame"
+CONFIGURE_FLAGS+=" --enable-libmp3lame"
+
+CONFIGURE_FLAGS+=" --enable-encoder=libopus"
+CONFIGURE_FLAGS+=" --enable-libopus"
+
+# Muxers ..............................
+CONFIGURE_FLAGS+=" --enable-muxer=wav"
+CONFIGURE_FLAGS+=" --enable-muxer=flac"
+CONFIGURE_FLAGS+=" --enable-muxer=wav"
+CONFIGURE_FLAGS+=" --enable-muxer=ogg"
+CONFIGURE_FLAGS+=" --enable-muxer=ipod"
+CONFIGURE_FLAGS+=" --enable-muxer=adts"
+
 
 CONFIGURE_FLAGS+=" --enable-parser=aac"
 CONFIGURE_FLAGS+=" --enable-parser=mpegaudio"
@@ -339,8 +364,8 @@ CONFIGURE_FLAGS+=" --disable-videotoolbox"    # disable VideoToolbox code [autod
 
 lazy_configure ${CONFIGURE_FLAGS} \
     --arch=${ARCH} \
-    --extra-cflags="-arch ${ARCH} ${DEPLOY_FLAGS}" \
-    --extra-ldflags="-arch ${ARCH} ${DEPLOY_FLAGS}"
+    --extra-cflags="-arch ${ARCH} ${DEPLOY_FLAGS} -I${ROOT_DIR}/include" \
+    --extra-ldflags="-arch ${ARCH} ${DEPLOY_FLAGS} -L${ROOT_DIR}/lib"
 make -j ${PROC_NUM}
 make install
 
@@ -398,6 +423,7 @@ clang \
     -o "libavfull.dylib" \
     "dummy.o" \
     ${LIBS} \
+    -L"${ROOT_DIR}/lib" \
     ${OPTS}
 
 install "libavfull.dylib" "${ROOT_DIR}/lib/${FRAMEWORK_NAME}"

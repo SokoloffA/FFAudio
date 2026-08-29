@@ -82,6 +82,12 @@ function build() {
         export PKG_CONFIG_PATH="${ROOT_DIR}/lib/pkgconfig:${ORIG_PKG_CONFIG_PATH}"
         export CONF_DIR="${SCRIPT_DIR}/${project}"
 
+        case "${ARCH}" in
+            arm64)   export HOST="aarch64-apple-darwin" ;;
+            x86_64)  export HOST="x86_64-apple-darwin" ;;
+            *)       echo "Unknown ARCH: ${ARCH}"; exit 1 ;;
+        esac
+
         echo "*****************************************"
         echo "** ${project}"
 
@@ -166,6 +172,8 @@ function check_deploy_target() {
 # ***************************
 build pkgconf
 build nasm
+build lame
+build libopus
 build ffmpeg
 
 echo "*****************************************"
