@@ -6,6 +6,7 @@ set -euo pipefail
 FRAMEWORK_NAME=FFAudio
 XCFRAMEWORK_DIR="./${FRAMEWORK_NAME}.xcframework"
 CERT_IDENTITY="Developer ID Application: Alex Sokolov (635H9TYSZJ)"
+DEPLOY_TARGET="${MACOS_DEPLOYMENT_TARGET:-11.0}"
 
 #######################################
 
@@ -13,12 +14,11 @@ SCRIPT_DIR=`pwd`
 PROC_NUM=`nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 2`
 ARCHITECTURES="arm64 x86_64"
 ORIG_PKG_CONFIG_PATH="${PKG_CONFIG_PATH:-}"
-export DEPLOY_TARGET="${MACOS_DEPLOYMENT_TARGET:-11.0}"
-
 
 export FRAMEWORK_NAME=${FRAMEWORK_NAME}
 export PROC_NUM=${PROC_NUM}
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+export DEPLOY_TARGET=${DEPLOY_TARGET}
 
 function lazy_configure() {
     local args="$@"
@@ -81,7 +81,6 @@ function build() {
         export PATH="${ROOT_DIR}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin"
         export PKG_CONFIG_PATH="${ROOT_DIR}/lib/pkgconfig:${ORIG_PKG_CONFIG_PATH}"
         export CONF_DIR="${SCRIPT_DIR}/${project}"
-        export DEPLOY_FLAGS="-mmacosx-version-min=${DEPLOY_TARGET}"
 
         echo "*****************************************"
         echo "** ${project}"
@@ -128,9 +127,6 @@ function build_universal_framework() {
     mkdir -p ${a_dir}/Resources
     cp -a "${SCRIPT_DIR}/Info.plist" "${a_dir}/Resources/Info.plist"
 
-    mkdir -p ${a_dir}/Resources/CMake/
-    cp -a "${SCRIPT_DIR}/FFAudioConfig.cmake" "${a_dir}/Resources/CMake/FFAudioConfig.cmake"
-
     echo "Processing libraries ......................."
     lipo "${arm_dir}/lib/${FRAMEWORK_NAME}" "${x86_dir}/lib/${FRAMEWORK_NAME}" -create -output "${a_dir}/${FRAMEWORK_NAME}"
 
@@ -145,6 +141,25 @@ function build_universal_framework() {
 }
 
 
+function check_deploy_target() {
+    local file=$1
+
+    for arch in `lipo -archs "${file}"`; do
+        match=`otool -arch ${arch} -l "${file}" \
+            | grep -A4 -E 'LC_BUILD_VERSION|LC_VERSION_MIN_MACOSX' \
+            | grep -E "(minos|version) ${DEPLOY_TARGET}\$"`
+
+        if [ -n "${match}" ]; then
+            echo "  [${arch}] Deploy target is OK: ${match}"
+        else
+            echo "  [${arch}] FAIL: expected minos ${DEPLOY_TARGET}"
+            echo "    --- actual load command ---"
+            otool -l "${file}" | grep -A4 -E 'LC_BUILD_VERSION|LC_VERSION_MIN_MACOSX'
+            exit 1
+        fi
+    done
+}
+
 # ***************************
 build pkgconf
 build nasm
@@ -155,6 +170,10 @@ echo "* Building for universal framework..."
 pushd "${SCRIPT_DIR}/.build" 2>&1> /dev/null
 build_universal_framework
 popd 2>&1> /dev/null
+
+echo "*****************************************"
+echo "* Check minos version"
+check_deploy_target "${SCRIPT_DIR}/.build/${FRAMEWORK_NAME}.framework/Versions/Current/${FRAMEWORK_NAME}"
 
 
 echo "*****************************************"
