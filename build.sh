@@ -127,6 +127,9 @@ function build_universal_framework() {
     mkdir -p ${a_dir}/Resources
     cp -a "${SCRIPT_DIR}/Info.plist" "${a_dir}/Resources/Info.plist"
 
+    mkdir -p ${a_dir}/Resources/CMake/
+    cp -a "${SCRIPT_DIR}/FFAudioConfig.cmake" "${a_dir}/Resources/CMake/FFAudioConfig.cmake"
+
     echo "Processing libraries ......................."
     lipo "${arm_dir}/lib/${FRAMEWORK_NAME}" "${x86_dir}/lib/${FRAMEWORK_NAME}" -create -output "${a_dir}/${FRAMEWORK_NAME}"
 
