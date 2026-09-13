@@ -174,6 +174,8 @@ build pkgconf
 build nasm
 build lame
 build libopus
+build libogg
+build libvorbis
 build ffmpeg
 
 echo "*****************************************"

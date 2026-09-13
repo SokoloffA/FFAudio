@@ -95,6 +95,8 @@ CONFIGURE_FLAGS+=" --enable-demuxer=flac"
 CONFIGURE_FLAGS+=" --enable-demuxer=ogg"
 CONFIGURE_FLAGS+=" --enable-demuxer=mpegts"
 CONFIGURE_FLAGS+=" --enable-demuxer=wav"
+CONFIGURE_FLAGS+=" --enable-demuxer=ape"
+CONFIGURE_FLAGS+=" --enable-demuxer=tak"
 
 
 # Decoders ............................
@@ -296,7 +298,7 @@ CONFIGURE_FLAGS+=" --enable-decoder=truespeech"           # DSP Group TrueSpeech
 CONFIGURE_FLAGS+=" --enable-decoder=tta"                  # TTA (True Audio)
 CONFIGURE_FLAGS+=" --enable-decoder=twinvq"               # VQF TwinVQ
 CONFIGURE_FLAGS+=" --enable-decoder=vmdaudio"             # Sierra VMD audio
-CONFIGURE_FLAGS+=" --enable-decoder=vorbis"               # Vorbis
+CONFIGURE_FLAGS+=" --enable-decoder=libvorbis"            # Vorbis
 CONFIGURE_FLAGS+=" --enable-decoder=wady_dpcm"            # DPCM Marble WADY
 CONFIGURE_FLAGS+=" --enable-decoder=wavarc"               # Waveform Archiver
 CONFIGURE_FLAGS+=" --enable-decoder=wavpack"              # WavPack
@@ -319,13 +321,15 @@ CONFIGURE_FLAGS+=" --enable-encoder=flac"
 CONFIGURE_FLAGS+=" --enable-encoder=aac_at"
 CONFIGURE_FLAGS+=" --enable-encoder=alac_at"
 CONFIGURE_FLAGS+=" --enable-encoder=wavpack"
-CONFIGURE_FLAGS+=" --enable-encoder=vorbis"
 
 CONFIGURE_FLAGS+=" --enable-encoder=libmp3lame"
 CONFIGURE_FLAGS+=" --enable-libmp3lame"
 
 CONFIGURE_FLAGS+=" --enable-encoder=libopus"
 CONFIGURE_FLAGS+=" --enable-libopus"
+
+CONFIGURE_FLAGS+=" --enable-encoder=libvorbis"
+CONFIGURE_FLAGS+=" --enable-libvorbis"
 
 # Muxers ..............................
 CONFIGURE_FLAGS+=" --enable-muxer=wav"
@@ -334,14 +338,17 @@ CONFIGURE_FLAGS+=" --enable-muxer=wav"
 CONFIGURE_FLAGS+=" --enable-muxer=ogg"
 CONFIGURE_FLAGS+=" --enable-muxer=ipod"
 CONFIGURE_FLAGS+=" --enable-muxer=adts"
+CONFIGURE_FLAGS+=" --enable-muxer=wv"
+CONFIGURE_FLAGS+=" --enable-muxer=mp3"
 
-
+# Parsers .............................
 CONFIGURE_FLAGS+=" --enable-parser=aac"
 CONFIGURE_FLAGS+=" --enable-parser=mpegaudio"
 CONFIGURE_FLAGS+=" --enable-parser=flac"
 CONFIGURE_FLAGS+=" --enable-parser=opus"
 CONFIGURE_FLAGS+=" --enable-bsf=aac_adtstoasc"
 CONFIGURE_FLAGS+=" --enable-network"
+
 
 CONFIGURE_FLAGS+=" --disable-appkit"
 CONFIGURE_FLAGS+=" --disable-avfoundation"
@@ -364,6 +371,7 @@ CONFIGURE_FLAGS+=" --disable-videotoolbox"    # disable VideoToolbox code [autod
 
 lazy_configure ${CONFIGURE_FLAGS} \
     --arch=${ARCH} \
+    --pkg-config-flags="--static" \
     --extra-cflags="-arch ${ARCH} ${DEPLOY_FLAGS} -I${ROOT_DIR}/include" \
     --extra-ldflags="-arch ${ARCH} ${DEPLOY_FLAGS} -L${ROOT_DIR}/lib"
 make -j ${PROC_NUM}
@@ -466,7 +474,6 @@ rm -rf "${ROOT_DIR}/include//libavcodec/bsf.h"
 rm -rf "${ROOT_DIR}/include//libavcodec/dirac.h"
 rm -rf "${ROOT_DIR}/include//libavcodec/avdct.h"
 rm -rf "${ROOT_DIR}/include//libavcodec/ac3_parser.h"
-rm -rf "${ROOT_DIR}/include//libavcodec/vorbis_parser.h"
 rm -rf "${ROOT_DIR}/include//libavcodec/dxva2.h"
 rm -rf "${ROOT_DIR}/include//libavcodec/dv_profile.h"
 

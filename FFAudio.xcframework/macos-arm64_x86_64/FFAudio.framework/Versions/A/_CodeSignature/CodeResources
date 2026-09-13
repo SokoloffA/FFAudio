@@ -92,6 +92,13 @@
 			E2NZXYXUvsNjGPTDO9Rq16tJ8WqJPHs1haDUIOOFESw=
 			</data>
 		</dict>
+		<key>Headers/libavcodec/vorbis_parser.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vwd7Lh0o1CY2yrD2nkuSsa1krC6qKEPCcKavrzCKdq4=
+			</data>
+		</dict>
 		<key>Headers/libavfilter/avfilter.h</key>
 		<dict>
 			<key>hash2</key>
@@ -848,6 +855,27 @@
 			TzzWZkBbt3YG/2I0QBJ64AN+t5GeYNxV1CPYErFiu+I=
 			</data>
 		</dict>
+		<key>Headers/ogg/config_types.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vUJMVnDiG/N/zQOdTjmp+PGapa9+5yCBCgcJLaZVfmA=
+			</data>
+		</dict>
+		<key>Headers/ogg/ogg.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qthhCcH9s3dzhnWmPgsZhZ4GraJa5cWcKQynJj0dxMo=
+			</data>
+		</dict>
+		<key>Headers/ogg/os_types.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O7q2pdMePCXGCAJSsEKvuHAo4///EA4+AoVkiyULcPQ=
+			</data>
+		</dict>
 		<key>Headers/opus/opus.h</key>
 		<dict>
 			<key>hash2</key>
@@ -881,6 +909,27 @@
 			<key>hash2</key>
 			<data>
 			GcswHqHu28vbtQSTY94GGJO/EcIOUFple2nOb/pbEfo=
+			</data>
+		</dict>
+		<key>Headers/vorbis/codec.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HQMePLrn3v6WZCbjOAJFClY4ihMj7sHsYp5tQJXGdsU=
+			</data>
+		</dict>
+		<key>Headers/vorbis/vorbisenc.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0qugUnJS3CZf/EC8mxlV1awNyNXhbZN2+jZsBfon3H8=
+			</data>
+		</dict>
+		<key>Headers/vorbis/vorbisfile.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fZgmTlewGQ7wonAaC+pfmC6C/Bvt2TzZQIov/3eQ+AM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
