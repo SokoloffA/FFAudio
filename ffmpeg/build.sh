@@ -97,6 +97,8 @@ CONFIGURE_FLAGS+=" --enable-demuxer=mpegts"
 CONFIGURE_FLAGS+=" --enable-demuxer=wav"
 CONFIGURE_FLAGS+=" --enable-demuxer=ape"
 CONFIGURE_FLAGS+=" --enable-demuxer=tak"
+CONFIGURE_FLAGS+=" --enable-demuxer=wv"
+CONFIGURE_FLAGS+=" --enable-demuxer=tta"
 
 
 # Decoders ............................

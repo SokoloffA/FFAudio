@@ -6,7 +6,7 @@
 	<dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/FFAudio</key>
 		<data>
-		udeUKI5BVS+xSF05bP0Tf80pWfg=
+		xHyfbn+hsY0YH7HHkUEy8JQYMvc=
 		</data>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/FFAudio.h</key>
 		<data>
@@ -573,21 +573,13 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/FFAudio</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			udeUKI5BVS+xSF05bP0Tf80pWfg=
-			</data>
 			<key>hash2</key>
 			<data>
-			pvffRSlc+fHRtbo9n1aUZtztK4HWGDxLxdz2SUKEUE4=
+			K/H6tPTiGHTN+eck4R+93LcyMIdznRi72NQLAjnHHhQ=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/FFAudio.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lH8Or1qaUwS0Fjr40IDkwuuyd8A=
-			</data>
 			<key>hash2</key>
 			<data>
 			zonZTk0BU56FkN5Kqi8/iZCMRwGqiOAzt6mvYDtpZxw=
@@ -595,10 +587,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/lame/lame.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tulv8jdibGN81UOQ9AlkmqG9s5c=
-			</data>
 			<key>hash2</key>
 			<data>
 			Rutqnw7CGGv78cJFXJpmc0O1fl6lP4et2XFTVoIQtNw=
@@ -606,10 +594,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/avcodec.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RRaKEnHTfpa4sd3D8EnxFDsyxjU=
-			</data>
 			<key>hash2</key>
 			<data>
 			muO77DvWY9Mp4VP1l08Ggkd5rYCSehhQLr6w/0BhcXY=
@@ -617,10 +601,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/codec.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g9NUuZCjex1oug1Hz9JlYx96t6g=
-			</data>
 			<key>hash2</key>
 			<data>
 			aUICqFhc7Jca9LcSxBHase2LtOfg5wYaNFNGImLz5rM=
@@ -628,10 +608,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/codec_desc.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xCkiHUKQAzllvD/B2JhvTkmoNq4=
-			</data>
 			<key>hash2</key>
 			<data>
 			qn0zmN9I4B+tRYnZCFcd1rzsVmRXWIwHShvM89jH9Fg=
@@ -639,10 +615,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/codec_id.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HvvsUerbN9LgvH2IQ02wOdEtluM=
-			</data>
 			<key>hash2</key>
 			<data>
 			N9DgzG1xMgEyvoMr+L4aos+MSLhUmDlcAN2XSWnbiXA=
@@ -650,10 +622,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/codec_par.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7h1Qgdvvgl3fxkw0nyuYyi1pPZ0=
-			</data>
 			<key>hash2</key>
 			<data>
 			NEgwcde2gH/NP9ARtcjsfx+WFSkpGJlloCK+zHR+2lM=
@@ -661,10 +629,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/defs.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E8K2vIAP0kpj3Q1kOk2p4aa7wos=
-			</data>
 			<key>hash2</key>
 			<data>
 			L3M5SaILDiRH8xdIN1PA5NB+k98zgltEjju9I5TI4PY=
@@ -672,10 +636,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/packet.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h8oX2v0Ti7lpHxXLGxmJNGjWhIM=
-			</data>
 			<key>hash2</key>
 			<data>
 			uJxZgeAxJGuPCO4gSfNuFhHDQJVM4lxoWakzxcuoVhY=
@@ -683,10 +643,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V5Dqxkpm5nhVoeYhOvyjMb2oBO0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HPKNd0QS916Gvt37PkTLn4TVdcspZGUyT54HYlfMqSY=
@@ -694,10 +650,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/version_major.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wqGaNL783udW/AgFy6S7005OoTs=
-			</data>
 			<key>hash2</key>
 			<data>
 			E2NZXYXUvsNjGPTDO9Rq16tJ8WqJPHs1haDUIOOFESw=
@@ -705,10 +657,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavcodec/vorbis_parser.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MqXJZoz5P8ck2YY16tkrrwNy48I=
-			</data>
 			<key>hash2</key>
 			<data>
 			Vwd7Lh0o1CY2yrD2nkuSsa1krC6qKEPCcKavrzCKdq4=
@@ -716,10 +664,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavfilter/avfilter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dXprZ2/o0+IXmN0V0auzedXXVRY=
-			</data>
 			<key>hash2</key>
 			<data>
 			5SnvJB/WNoR3sXl/wTkSc8Vui7oxDdiLOBT6MsOPG70=
@@ -727,10 +671,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavfilter/buffersink.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5NvX6cMjpU/fWDh+408rM2WK+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			q1/hnRHwObpA2XvECFXT/8PfTIotkb5u+xQTBFEMjzQ=
@@ -738,10 +678,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavfilter/buffersrc.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N+9XojO/gIpwGaE86PvEFz87bO4=
-			</data>
 			<key>hash2</key>
 			<data>
 			tOjjm81BeZNAZFcqQPun0IMPYV2+48U4Wa3bKL8tSHo=
@@ -749,10 +685,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavfilter/version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5i0ZtCuZKE2gpFkapgSJLOyc7Pk=
-			</data>
 			<key>hash2</key>
 			<data>
 			X/+5dSBs3xDWZvzJUmsabntidf8r93lt98qjkgD8qDg=
@@ -760,10 +692,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavfilter/version_major.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kHHuq0D1txbJaPzlExjAgDdvUJ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			eovxjbo7oyGVwhOimld54hlJxDtBp8Knwo8oIuab6eU=
@@ -771,10 +699,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavformat/avformat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EJ0Zz9bU73dM8EhblANitiRrSbs=
-			</data>
 			<key>hash2</key>
 			<data>
 			Mx/lFJkXovHQxb28WgrMGEr+BE/PxMyZ9d66z8lFPNY=
@@ -782,10 +706,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavformat/avio.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			94J/2KgxhXUU+p3iT6jdSZhw+V4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zbusdo1VkC+B6OaewrntpTTd4651UOYjwV4NJ9VmpLE=
@@ -793,10 +713,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavformat/version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BDx8c/VOweQ2ctIkOT9zJYOC63s=
-			</data>
 			<key>hash2</key>
 			<data>
 			WbgrC3f0DFEa3Q/EtkFkrr1onaYPhex8cRNDdnQgUoo=
@@ -804,10 +720,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavformat/version_major.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CvcZ6ljy9hUa0msJ5R07BviveJY=
-			</data>
 			<key>hash2</key>
 			<data>
 			tQswcatKpUymgCs5Op3hOdQaXP/SGg3KpzR6fAu6f1s=
@@ -815,10 +727,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/adler32.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5uMq37264H1XjwojZNHCGheHyIs=
-			</data>
 			<key>hash2</key>
 			<data>
 			8hqGGVe/SxgS7Wf9xSiJD5z/G7SD+s8PUQnkpRky/js=
@@ -826,10 +734,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/aes.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MwZCqwZKPSWUYUTkvL2XMLhVfoc=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cobr6vntM1SL8PkjWfcEflIdTYD+aw7xyO+VBeOLbSg=
@@ -837,10 +741,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/aes_ctr.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KfxDj3NikY3DN5fYEsvcKomZp94=
-			</data>
 			<key>hash2</key>
 			<data>
 			+7uUiIv6supxQefhr6WHLeCZ5+5XuuoXYyw9T90suj8=
@@ -848,10 +748,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/ambient_viewing_environment.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			b7TnUQPfVhG4SsSSEF3vNuCvEmM=
-			</data>
 			<key>hash2</key>
 			<data>
 			ABNd4ICJ+McRuxE1iPgFdaHSbobVC22sWSiieg/5qMc=
@@ -859,10 +755,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/attributes.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Zv27Uni2feWpv4SfcPP8sy4bCcs=
-			</data>
 			<key>hash2</key>
 			<data>
 			H1Eli6OYYeCMvI1AfsN6jQ/ShmmqcwbBNly5xnX6HXY=
@@ -870,10 +762,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/audio_fifo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h2yHuBsByJIbzQwpBCcrD2e0R50=
-			</data>
 			<key>hash2</key>
 			<data>
 			PFE8pGknNGwGc82dswKv5i27+XaETzbaAwf9EPf0e/0=
@@ -881,10 +769,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/avassert.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IXu2tJPGayQAULjBr2M9zrEDp4w=
-			</data>
 			<key>hash2</key>
 			<data>
 			Od/hbweQ2qXWubG60xZ8PJ5jjHJFLgrNry0WPJx16kA=
@@ -892,10 +776,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/avconfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1cwrdgdqYdXDOr1YKP5+DhAeoyo=
-			</data>
 			<key>hash2</key>
 			<data>
 			l1YRrV66FSEtnh1fyp1P3w2uxtImmy/KuOKa+GZxZLw=
@@ -903,10 +783,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/avstring.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eiEItkmNIrJDcrpzxzJoq0r4PCc=
-			</data>
 			<key>hash2</key>
 			<data>
 			rFFGK/Vf9i2jnbSxXHprm3gzh3CfBoeRlqBlaRs07b8=
@@ -914,10 +790,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/avutil.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FwteSt8MqKIWJR+dmMwfBp7qohg=
-			</data>
 			<key>hash2</key>
 			<data>
 			xLxGTB9rheCBQXcqPwfNqtALRtmpcPN08XHysrgQ65A=
@@ -925,10 +797,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/base64.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			77WC5H1Q58PT+eCK9J+INASda5I=
-			</data>
 			<key>hash2</key>
 			<data>
 			gawT0j83RP6F6iZRzpA+IBzVX8Y/zdiZ0s/lVg1Q7z0=
@@ -936,10 +804,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/blowfish.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W+CzSBM6VmXtgmcDe/S/qyMoON8=
-			</data>
 			<key>hash2</key>
 			<data>
 			uVWmPGDIs74CA+xsOXP5CE2EjPiE/lbNVgiDAa7veZI=
@@ -947,10 +811,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/bprint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p7pHgGWmn66Np100lT6reAK+u4w=
-			</data>
 			<key>hash2</key>
 			<data>
 			XjgA15f7j2f/p5F0INNxDHWa+spvhLZV+2S/TfpGUNI=
@@ -958,10 +818,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/bswap.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oIy2GFei6h09PUBXWEM68Xtyj+A=
-			</data>
 			<key>hash2</key>
 			<data>
 			RymsGOndu2x2nhQGUBwVOovuO34lJQv21v/zhsWQlv0=
@@ -969,10 +825,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lE1YM12l9KW2AwobHSOPA0f1CEo=
-			</data>
 			<key>hash2</key>
 			<data>
 			8WdC1XQhZDRYBXOisJ9W/Ftmt92hlg1PArpZ4yabpUg=
@@ -980,10 +832,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/camellia.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A5F8IDHiijdM4/EhJ1WFxdTe28Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			HbMHU+ccc/GTfoB4UAaeghXN83obw/+J06Y3CnGcH94=
@@ -991,10 +839,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/cast5.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kjQwxP3q3mW+qTMJX0l9PLkGJu0=
-			</data>
 			<key>hash2</key>
 			<data>
 			BbLhOuyqCtu0cAgaaJ9Fuv+44DpxmXwx83oi6k44OmA=
@@ -1002,10 +846,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/channel_layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s0W27jrNfaqAB7PlwXurLS+wm00=
-			</data>
 			<key>hash2</key>
 			<data>
 			kxkdFvJmfg0arO0Itt6XrX1VU70G5uGg3Aj6l8tbgNM=
@@ -1013,10 +853,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			B1knRMe1zLBvIc23R+e5CmmwJOo=
-			</data>
 			<key>hash2</key>
 			<data>
 			WfA460dQ0YIeKSXf4Tocl7BRyp1UoTZ9BZhw3QUcGE8=
@@ -1024,10 +860,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/cpu.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MhsnAHPjFAeP6KjgnpVpcG7uz9A=
-			</data>
 			<key>hash2</key>
 			<data>
 			h+xBodjsGcIoiTjObCsx8ODqR9u3oBApKIV88iOeaPM=
@@ -1035,10 +867,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/crc.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yqf8toT6/DEipoN2pxF9aWfwvJ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			VyjPZXBaRnI+ootPbINhqtgrdqkOhZlD7+ivDtt57IY=
@@ -1046,10 +874,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/csp.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3tmba1uQuttXX+gDd/5Dz5L9QRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			eWn9Zi8xzzGAQDUQpnhKFK9g1/m/Olad3oRYWmlt/wk=
@@ -1057,10 +881,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/des.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GmclwZPs9BXvaq61+TQwMHBfUyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Fevdoa9l2RxGB6NETF90nV6XV/9df0sEITsxlGA/dNk=
@@ -1068,10 +888,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/detection_bbox.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/3qCgY73YtnqAxAcuVV7pKZg5wE=
-			</data>
 			<key>hash2</key>
 			<data>
 			j1gX13ryQ6UukFlHqlrnPCGNaNupCQQLL2O9LKb5OSI=
@@ -1079,10 +895,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/dict.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9V6tnEIuuwAZ6TBYPAiiQgF/TyA=
-			</data>
 			<key>hash2</key>
 			<data>
 			yVy6GCnniG4xRp9OBYu5rzyPIVYZx//dvCBFyQOfBVQ=
@@ -1090,10 +902,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/display.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwyF4I5qdqp0dnCG46ypyQHg5s=
-			</data>
 			<key>hash2</key>
 			<data>
 			uceMgKqTMblFgCtrzR207MnsT5+tQZk8yCuIDA3sJXY=
@@ -1101,10 +909,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/dovi_meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m8ROKjuvMNeieh4yXbEZXXl3lUY=
-			</data>
 			<key>hash2</key>
 			<data>
 			4TcqyRMOkb1ISV7V3AXOzgrmuubQe/HQZZSmOr+7Qfc=
@@ -1112,10 +916,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/downmix_info.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i9SuQTrJNHjDuOCx4pn5ZARzQ1U=
-			</data>
 			<key>hash2</key>
 			<data>
 			L8I62PB1DYL81qo7ZTmY4uqXIfnRZk33tsuA6T1/o6o=
@@ -1123,10 +923,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/encryption_info.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sI8AXxbovIj2E189zmr5OsVA2Ok=
-			</data>
 			<key>hash2</key>
 			<data>
 			zMOkqIm4o8Wq83ufskB7zfI6BlSHx8unGFGKUXxGOxg=
@@ -1134,10 +930,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/error.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uaKln/Cd38+00b2IOYw4brh18oU=
-			</data>
 			<key>hash2</key>
 			<data>
 			vPT35px+DWWK1ugWEYEPfPHwuDNOvpSNJ+UYxFnkEEw=
@@ -1145,10 +937,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/eval.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K4KwhD00mpRqzKlbqKaNoupWlsI=
-			</data>
 			<key>hash2</key>
 			<data>
 			aO/qqbZgDsR9rpAx0fCGmBjIgIOyT7Ez3jws9z+K3x8=
@@ -1156,10 +944,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/executor.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			myXHfJoLu3+1npiDYEV/bnGUJmw=
-			</data>
 			<key>hash2</key>
 			<data>
 			21eO2s1Vrbt75J/2Zid38924T1MOCtfXzY4MGPCq6Hg=
@@ -1167,10 +951,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/ffversion.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lkj0j6dv4Yl5zF8DBOSOnQ3zePg=
-			</data>
 			<key>hash2</key>
 			<data>
 			/6RX1tTP6z9KU+gpmK501QvP9Gys9t2bDAz8evt7T2E=
@@ -1178,10 +958,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/fifo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TDHJHbZZ9bmwX4SFfgPFX0rjqyg=
-			</data>
 			<key>hash2</key>
 			<data>
 			nW6abbiH0y7j9L2vq2iGnQD52JWQ4zcYkiw3Bn639f4=
@@ -1189,10 +965,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/file.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CN4ZezmBuOyZ/i0hLRmDuSPN62Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			ENqg0PHyo77fK32LXE/qII3Zz4yqu4Haw0H8atJPaF8=
@@ -1200,10 +972,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/film_grain_params.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MaXkl43zt5MSF94lhhyZisX2H4w=
-			</data>
 			<key>hash2</key>
 			<data>
 			w+yNrgIF5i7lx590JXYNQnYfz2JIqSdX4FvXQuUeTYY=
@@ -1211,10 +979,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/frame.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PexDSUsm8A2ueCfhz6krlBhKcZc=
-			</data>
 			<key>hash2</key>
 			<data>
 			ghjwKVIGplQ+fTl0pvyx8iEAonOwkjTQy4TGDNFjjnU=
@@ -1222,10 +986,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hash.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Km7ioQ4JhN0Bcp52edsMOHFvQWk=
-			</data>
 			<key>hash2</key>
 			<data>
 			sIllcSZyIHNmee6ijEVHg3laAqDxrvAI6+fEBImnX90=
@@ -1233,10 +993,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hdr_dynamic_metadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Sro+TAVBZRFT8sktqHxZF7V1yzs=
-			</data>
 			<key>hash2</key>
 			<data>
 			DWS6E4jWdFPuZ3zVAifUs77fPNpuRXLzUXsjMeeo0Bc=
@@ -1244,10 +1000,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hdr_dynamic_vivid_metadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bGt2pxKRB0iQ9uOraKOs0VNWEF0=
-			</data>
 			<key>hash2</key>
 			<data>
 			n1DkcTdryejKUEozjP5072NLjywkLM7+0uTaZxlxEt4=
@@ -1255,10 +1007,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hmac.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NjKPGVR2/mfPDDHzhUTWgmICH+g=
-			</data>
 			<key>hash2</key>
 			<data>
 			0U1iWol9a7oGaKzfM9xZe7AFAjfFwaX35Wj+NoInguc=
@@ -1266,10 +1014,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M3snOKjx0Op9/fdAfXynChIEVPk=
-			</data>
 			<key>hash2</key>
 			<data>
 			gozJ7X6Mem0KcG/eKhag7AnTbnw31Mzf1FL/FZTzRhQ=
@@ -1277,10 +1021,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_cuda.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8l+q4D6xdyrRp6434JqhCFq1uVU=
-			</data>
 			<key>hash2</key>
 			<data>
 			SHj0Y0cnG8ep/ya7FXNEmpnMgUR2hOEDSj7dSw/5HZo=
@@ -1288,10 +1028,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_d3d11va.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vr76YzPP/QjK6IAOqlC3Z6mEQEA=
-			</data>
 			<key>hash2</key>
 			<data>
 			2ZwbXF2rlMI3CdTObPSJwqC09L1XuwTiGWNxJ33KWvc=
@@ -1299,10 +1035,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_d3d12va.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QNNhX4Ur1H42KjUS4eCelePr6Po=
-			</data>
 			<key>hash2</key>
 			<data>
 			oZXxGtJoBvStq2eWESQ9ZHy9QgzCyRS6hINoCfbSqgQ=
@@ -1310,10 +1042,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_drm.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FZVjI4QRwnf8TSm4+6IgBRuB+x8=
-			</data>
 			<key>hash2</key>
 			<data>
 			tZjzf0DPE0L5I8C5d4Sm8oMLVDho7M7gRjdeCW+9XyQ=
@@ -1321,10 +1049,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_dxva2.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bW/uaU54JcOvFlGqZMT4UgLn6NY=
-			</data>
 			<key>hash2</key>
 			<data>
 			c6AzO2XplnWDTcsbY6XpM5Y4zMYZ8aL8uoXN0OF5reA=
@@ -1332,10 +1056,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_mediacodec.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dq61j+tXNGh0JYpmdeA5iRqXNZM=
-			</data>
 			<key>hash2</key>
 			<data>
 			jGAoWevKkGum5D6lSP8oghzyiGtFALK+HeqvLVUkltQ=
@@ -1343,10 +1063,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_opencl.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CPB+OaR8GNDXjH1jTHHGnW5fSlU=
-			</data>
 			<key>hash2</key>
 			<data>
 			rVIfov0BXLGrqWJGjKSsF29fxrLEt74o8F4cA9ieGzE=
@@ -1354,10 +1070,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_qsv.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QVG72OyffcFin0qxkvAYBbLDH+g=
-			</data>
 			<key>hash2</key>
 			<data>
 			56ri3dQYb5+4HJSjwAW9hrFRS2PEYUiJgjaEVPvhmhU=
@@ -1365,10 +1077,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_vaapi.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3UfpuTPRVplPa8IowBNfRTwaZ1I=
-			</data>
 			<key>hash2</key>
 			<data>
 			b2xqUlDdD5Ac3H3oubPbJhAnGbfgVs0XUAAJCWv9mzk=
@@ -1376,10 +1084,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_vdpau.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sowp4hhJVNNDKM7l460gbhytXdw=
-			</data>
 			<key>hash2</key>
 			<data>
 			bJY3PZ5d6yxQAATz9V7h0s6g92zfrquvWjrT5JOOglI=
@@ -1387,10 +1091,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_videotoolbox.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eNfMfMpVOVBUX1lxXcSCCFvNqBY=
-			</data>
 			<key>hash2</key>
 			<data>
 			cbu2uvLc7/lshnPvWvxUZ1SO+3uZxNmNZ99JxiT3QME=
@@ -1398,10 +1098,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/hwcontext_vulkan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WtglZTKewXwH1lLFzbMZA8n8YYM=
-			</data>
 			<key>hash2</key>
 			<data>
 			3IyGil+92rHf8jFtdoM3RDy5JOV9aEYgjSAR/O7sEdk=
@@ -1409,10 +1105,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/iamf.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yi1/tYhTMFDpsHroaS6lY8MhYNg=
-			</data>
 			<key>hash2</key>
 			<data>
 			NdjvH4OyNlFhOGzSgcR8YC/ofJm19EJSzdTmiffZZFo=
@@ -1420,10 +1112,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/imgutils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			R7K1up0op1Z3Pbvgc/FL1juyTz8=
-			</data>
 			<key>hash2</key>
 			<data>
 			jgBV/Yb7ELfJ5DXpN1c2ttsgHLmTCjj7T/HhodqODP8=
@@ -1431,10 +1119,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/intfloat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Do3338v8xnexknlgiCxBDd/Z7dI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Oink7ryMJpz9hnuW3pHYIxdz05LBKogg5G6rqW0rTKE=
@@ -1442,10 +1126,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/intreadwrite.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			96q2D65yev1Gpg1bHxnAT1aCEgw=
-			</data>
 			<key>hash2</key>
 			<data>
 			rHjLM5fXSW6p5RxhCM8ZPnalifJbJQvtjsmONogBehU=
@@ -1453,10 +1133,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/lfg.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+lEjlEf5jKrpqM5Tf+tl73bCCI0=
-			</data>
 			<key>hash2</key>
 			<data>
 			w7wVMxcv50hw34438Wjyiw/y4hvbalGbZVXscnEMkQ8=
@@ -1464,10 +1140,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/log.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JPU9NMfy6jvD3gah/15QJcwRHfg=
-			</data>
 			<key>hash2</key>
 			<data>
 			hVWtXUH18vocfdDcZfIUWwUXwKQUZUV1qt6LOWjkxAg=
@@ -1475,10 +1147,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/lzo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QDynH/VFfo/qe29xqd2gf9gQ8fw=
-			</data>
 			<key>hash2</key>
 			<data>
 			YeiZKN7p2DAwrezsrAaqbBriqtoGxWgv3lLFIBXFNVY=
@@ -1486,10 +1154,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/macros.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j+sB0G91kAPAouzGbGgd+liv1aE=
-			</data>
 			<key>hash2</key>
 			<data>
 			8O35WA5twhrVzUTfYS84py9GPNSJLq66P6WlZeGQzT0=
@@ -1497,10 +1161,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/mastering_display_metadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EQTEnL+dPjV6qfcE0SXczE+gvfM=
-			</data>
 			<key>hash2</key>
 			<data>
 			27FYSTHU2P99eoaLUZCXttkvBCbXgVQ5h8t4T4C6lzo=
@@ -1508,10 +1168,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/mathematics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ohAetMDOwxzJbCcoYykVZv0Qvn4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZPrC6zpC/TeI9VhayOZcfVzYJxFzDR8DAEK6CmL+GmI=
@@ -1519,10 +1175,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/md5.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GoHL6Z0zWLvqnWGyaA3l3bND2hs=
-			</data>
 			<key>hash2</key>
 			<data>
 			W0LeF1jSifeLTSDEdob0Q+TqilpkEcDes1f3CdLvNNc=
@@ -1530,10 +1182,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/mem.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eMzNsdDSXHf4RWRkaLJ9+dU2PEY=
-			</data>
 			<key>hash2</key>
 			<data>
 			v5odjCGMOLMz77Fr4HbFd40x1moGkb3WF18XHAgoPXw=
@@ -1541,10 +1189,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/motion_vector.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hN3ZouLVNQGuyZv5XdiFbN/VTFE=
-			</data>
 			<key>hash2</key>
 			<data>
 			3AsKFaY4yLkd+VpBjFlR7l54fVGPIrbj1wCUkiU26Ls=
@@ -1552,10 +1196,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/murmur3.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/Vq+srvJL1E8d7WGoJ6h8WT72dg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZJJYpRxHN/oZoCWkieKsnpsGqW6vqALydlF4xoQ4KIc=
@@ -1563,10 +1203,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/opt.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XiY7lEV03cMgkfd9T9kwZdWOYIc=
-			</data>
 			<key>hash2</key>
 			<data>
 			xq7Aqt6ctVaWvRCkcpTkOjiQAgi6Bg2fN+MjSM9fH78=
@@ -1574,10 +1210,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/parseutils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SKCN2fasKl1yj2ikZQ+mcwItg3k=
-			</data>
 			<key>hash2</key>
 			<data>
 			6O/taTloUfQpqCWNUOnE8EMfkhaHp8Mb9tsT0U90gsM=
@@ -1585,10 +1217,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/pixdesc.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7JxPMwGfpBvp0vMifB5B23IIWSk=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xlsmnq5oXFSj+aov9qs3SeYjel3+5b+tHSxK72Fxpmo=
@@ -1596,10 +1224,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/pixelutils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OpI6L/JWUGxhqkOtxnc/ktcQERA=
-			</data>
 			<key>hash2</key>
 			<data>
 			M5zW/7ZGDQZAGAHF37kcpmub3AKOGsyf9KD0R8/TeFw=
@@ -1607,10 +1231,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/pixfmt.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QFVpbFvc1Qku4lWFG/vFT8k66y4=
-			</data>
 			<key>hash2</key>
 			<data>
 			o9a330NhgK0Cu5L95UUjD8DRetHAwECRG6927mTYFmM=
@@ -1618,10 +1238,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/random_seed.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dV0esI+GNOoEYCQHUdpoWn6Tvt0=
-			</data>
 			<key>hash2</key>
 			<data>
 			RJD9eZGarbGPdlyqwMIQ0iyvpNY83c+Sdeb1v2bi/eo=
@@ -1629,10 +1245,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/rational.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RoemNwtdSLZpBMbw/L0FXPPOYDU=
-			</data>
 			<key>hash2</key>
 			<data>
 			U//e4ZOvA13rPMBXbkQaR52mKU1BbaCYsSKp6sjZ/7k=
@@ -1640,10 +1252,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/rc4.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0d3Ux1GyxD9Yj8LII7DzIPmZbj4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TqD77kNndyGtDYRvcDp4Wq+YgXlNHMoLyyECQbJg/CY=
@@ -1651,10 +1259,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/replaygain.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8BBzMUHr8oeBDOkmHYWyvXV61sk=
-			</data>
 			<key>hash2</key>
 			<data>
 			Tsgu29xOVJP7o8rmonVm8PFdE5nM8W4lBz/9ULqBh+o=
@@ -1662,10 +1266,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/ripemd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+YedsXT4I3Up0mdugMfKkPUoX98=
-			</data>
 			<key>hash2</key>
 			<data>
 			3574wp7jHlvY6imbA9Ub0l/pN1g3k6mU21PR3ysxZiA=
@@ -1673,10 +1273,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/samplefmt.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jtb1MDfpn/xGf+Dq9uO4MR4JPdU=
-			</data>
 			<key>hash2</key>
 			<data>
 			6ETYtKaRJWI40Q3nYqalNv/lKZVwUWau4NfwHOeXeKk=
@@ -1684,10 +1280,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/sha.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q15BscoY410zZIx1q8WNvMuOEN8=
-			</data>
 			<key>hash2</key>
 			<data>
 			kSgNtplbG5m55arQqiEaMXfcTShB2i/qCX9Ulkt4kf0=
@@ -1695,10 +1287,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/sha512.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u0sLCp9GoaMNNtj+gf3o+7vO1kE=
-			</data>
 			<key>hash2</key>
 			<data>
 			2iZRUnmLIhcG1/6VKToOjNGPorUIe/MlBKgSDxDnZY8=
@@ -1706,10 +1294,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/spherical.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mjf5q3s0ZFLLR6dkEazAk836jVo=
-			</data>
 			<key>hash2</key>
 			<data>
 			LHddAKa61awbBBzCFI/aInBgmB7gJZe/+VJXIgJKUyc=
@@ -1717,10 +1301,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/stereo3d.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mTu4P3m70kGe009mrwKrkzRvIBY=
-			</data>
 			<key>hash2</key>
 			<data>
 			MswoyqwBtb8YrgFq9LD//75A/rd+lstDTXI5VKg7d2o=
@@ -1728,10 +1308,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/tea.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+x/v7xzZBWzy1aA5Di6vHdux82c=
-			</data>
 			<key>hash2</key>
 			<data>
 			PB6TxWZjC7Tu7a0+88hxm9YFAIGsHHZLH96Bq6SWkHY=
@@ -1739,10 +1315,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/threadmessage.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			brwZjK5EehQK/omIjuqsQvwKY+I=
-			</data>
 			<key>hash2</key>
 			<data>
 			m7JC163EhmK5R3JoQxCK/3w0VH16Sg0Ob1j1SgD8TJ8=
@@ -1750,10 +1322,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/time.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4CQbcV1vL6c4xeFH2AqqwaCB9lU=
-			</data>
 			<key>hash2</key>
 			<data>
 			QOEfokLgWFmWdTr/sFREPni+JZGbfDBjBC0Kr/FlZ2A=
@@ -1761,10 +1329,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/timecode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VWia1IYUVYziP4LXm17nCvw4D+g=
-			</data>
 			<key>hash2</key>
 			<data>
 			IJNrY5r6ieejVr1fUxezN0Wx9MPUZ0hq0EPLm11RUno=
@@ -1772,10 +1336,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/timestamp.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OXE2Q4JOjPMkrnNGt24rtw1QmBU=
-			</data>
 			<key>hash2</key>
 			<data>
 			39LiBxV38E3cPK4gCr2Wug+3049TNZAlrzGdS5AvGUc=
@@ -1783,10 +1343,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/tree.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FgyDCGHf0pkjAcqvKWWniGU19rQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			L46QaRdhKgXBOANt6n7Z+PruWJlBOlI/2tTrUXEbweU=
@@ -1794,10 +1350,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/twofish.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BoUvuxJxULYAnpz+yUDmbW2E7zY=
-			</data>
 			<key>hash2</key>
 			<data>
 			txcUM2gh4cYGtlYguksepH5DFma+QfMXT6y8UQR/2BQ=
@@ -1805,10 +1357,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/tx.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VZnerDbpd6xMYYHgdw9mHsiU7EU=
-			</data>
 			<key>hash2</key>
 			<data>
 			NPg64x0HSEfkZXnyXjNnIQ+7/hgytTFYg89KKJgO8QE=
@@ -1816,10 +1364,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/uuid.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i0Cw/vD/wR+W0ChQNREtRSOdP6s=
-			</data>
 			<key>hash2</key>
 			<data>
 			5mnOdqa5h+GJtNf/YtD9mtbjNPpJZwdsxtkSl2V0tkY=
@@ -1827,10 +1371,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zXjtBLgkDmgo9kKf5hoMdbucTNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			2YifSahJM/7gqD829Z0vzofhb5tmxMe/zlai2ln+zEA=
@@ -1838,10 +1378,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/video_enc_params.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1oezsnwr5r87fcLI7gUlR+zRAwg=
-			</data>
 			<key>hash2</key>
 			<data>
 			MVSO+OUUqi+62EOSUDI5hdfZypsXOZfvW1q7Q7hHdms=
@@ -1849,10 +1385,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/video_hint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MePzqUYEcJl1g1O+j6VTqEY+I0s=
-			</data>
 			<key>hash2</key>
 			<data>
 			ERQ5zRaeLJNNM6VFtnD8F9GFk61LgNzviNDbVZMd73U=
@@ -1860,10 +1392,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libavutil/xtea.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A5tQCrxIRMMOYhZQC9ZnGht5uS4=
-			</data>
 			<key>hash2</key>
 			<data>
 			LrkfeAzErYYJXk67zkU0ddQPTpuHN9Ur3yCgaN+vzfA=
@@ -1871,10 +1399,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libswresample/swresample.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdDH6JWINepHALsrAp4wmO+auX0=
-			</data>
 			<key>hash2</key>
 			<data>
 			ohR5WFbcYWLwVFk70WRQm9Sd9yMJSgIFSHPSOtDuhKI=
@@ -1882,10 +1406,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libswresample/version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8UL/ITKhnaeyPwXF47IClGm1nsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			kXZOKVZ4jAkvyEElMCqS5uMORwvTpjaG1eaIlJT3ips=
@@ -1893,10 +1413,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/libswresample/version_major.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UW2UjOYQ9OKyeQzHXrtlK2l5mP0=
-			</data>
 			<key>hash2</key>
 			<data>
 			TzzWZkBbt3YG/2I0QBJ64AN+t5GeYNxV1CPYErFiu+I=
@@ -1904,10 +1420,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/ogg/config_types.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XiH6N3BFq9lgKbnUUXwH4P9IqC8=
-			</data>
 			<key>hash2</key>
 			<data>
 			vUJMVnDiG/N/zQOdTjmp+PGapa9+5yCBCgcJLaZVfmA=
@@ -1915,10 +1427,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/ogg/ogg.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s2G1RwkNyJi0TYUz1kBiffxeCIU=
-			</data>
 			<key>hash2</key>
 			<data>
 			qthhCcH9s3dzhnWmPgsZhZ4GraJa5cWcKQynJj0dxMo=
@@ -1926,10 +1434,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/ogg/os_types.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M49cvzhxTQAHOGUaT3FaDw/ArA0=
-			</data>
 			<key>hash2</key>
 			<data>
 			O7q2pdMePCXGCAJSsEKvuHAo4///EA4+AoVkiyULcPQ=
@@ -1937,10 +1441,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/opus/opus.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			apvHXq3GR5v3J74RJb6JNJjzqSs=
-			</data>
 			<key>hash2</key>
 			<data>
 			A29qboOiDpQ1BXQ+ET6Q1ieMvoJA99W7kLP4YmHng+M=
@@ -1948,10 +1448,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/opus/opus_defines.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NOXz2chz6zhMJXm2nsxvEtpI9Bw=
-			</data>
 			<key>hash2</key>
 			<data>
 			u9TU47qZ9pgrHI2PVUGBStd9jour88x4jPI9UXssqdY=
@@ -1959,10 +1455,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/opus/opus_multistream.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gVRfVXOYkgiKVMqaZ8p4Q47qkmk=
-			</data>
 			<key>hash2</key>
 			<data>
 			/ZnEWUtLV+QG6cq0Wnd4ld0bTI3gZwiKpU7XrhALE/A=
@@ -1970,10 +1462,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/opus/opus_projection.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			L3SHEjeEc4ATGC+J2CByv7qXoBU=
-			</data>
 			<key>hash2</key>
 			<data>
 			EbNCfpyjQjCKk63JoIHiR5aF5beBGjpTVAYJ8bvEiK0=
@@ -1981,10 +1469,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/opus/opus_types.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4eY+K/HQ77ZaFO9EKPVfVs7L2jM=
-			</data>
 			<key>hash2</key>
 			<data>
 			GcswHqHu28vbtQSTY94GGJO/EcIOUFple2nOb/pbEfo=
@@ -1992,10 +1476,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/vorbis/codec.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Bkwk4UY8zZpt6vwZlEKnyItmpaY=
-			</data>
 			<key>hash2</key>
 			<data>
 			HQMePLrn3v6WZCbjOAJFClY4ihMj7sHsYp5tQJXGdsU=
@@ -2003,10 +1483,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/vorbis/vorbisenc.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4QmfKgO72x3ZzC3JSy3IE1kOSz0=
-			</data>
 			<key>hash2</key>
 			<data>
 			0qugUnJS3CZf/EC8mxlV1awNyNXhbZN2+jZsBfon3H8=
@@ -2014,10 +1490,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Headers/vorbis/vorbisfile.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wmwl/Vs27X3W7CQ4vVd0GZX2pAw=
-			</data>
 			<key>hash2</key>
 			<data>
 			fZgmTlewGQ7wonAaC+pfmC6C/Bvt2TzZQIov/3eQ+AM=
@@ -2025,10 +1497,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SnljUbKLyCWucakC+QjAOuOtLqw=
-			</data>
 			<key>hash2</key>
 			<data>
 			2XT+UTmyNp5UdBqs8L5CIHHYFEwmF5tclXcvL1YEc6k=
@@ -2036,10 +1504,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Resources/CMake/FFAudioConfig.cmake</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hMw+bNyzlMxyRJPGxbr74M9gBhA=
-			</data>
 			<key>hash2</key>
 			<data>
 			fNNKkgoeco34zsblEudl3jz8snkGfRF8eTt1eMLBHoY=
@@ -2047,10 +1511,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GTwtMJKbjGhLpCcgtiEyo+EOz1g=
-			</data>
 			<key>hash2</key>
 			<data>
 			Vv8D5Q5r1KgYod/6t9ZTHM8+2RfTYZ6OOYrq9rRWpiQ=
@@ -2058,10 +1518,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/FFAudio.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mfvBy1MkQtCc7D86grkcgu/fBXE=
-			</data>
 			<key>hash2</key>
 			<data>
 			irewDzgARqZT1yufNwCCazC9Q3cG0IH451wj24Kg294=
